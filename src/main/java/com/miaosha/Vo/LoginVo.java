@@ -22,6 +22,6 @@ public class LoginVo {
 
     @Override
     public String toString() {
-        return super.toString();
+        return "LoginVo[phone: " + phone + ", password: " + password + "]";
     }
 }

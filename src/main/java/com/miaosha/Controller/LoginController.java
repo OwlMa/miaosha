@@ -20,7 +20,7 @@ public class LoginController {
 
     @RequestMapping("/do_login")
     @ResponseBody
-    public Result<Boolean> error(LoginVo loginVo) {
+    public Result<Boolean> doLogin(LoginVo loginVo) {
         log.info(loginVo.toString());
         return null;
     }

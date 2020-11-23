@@ -17,4 +17,8 @@ public class MD5Util {
         String dbPassword = "" + salt.charAt(0) + salt.charAt(2) + formPassword + salt.charAt(5) + salt.charAt(4);
         return md5(dbPassword);
     }
+
+    public static void main(String[] args) {
+        System.out.println(userPasswordToFormPassword("123456"));
+    }
 }
